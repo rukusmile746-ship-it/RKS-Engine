@@ -1,3 +1,4 @@
+#include <imgui.h>
 #include "Engine.hpp"
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <SFML/Graphics/RenderTexture.hpp>
@@ -41,10 +42,11 @@ Engine::~Engine()
     }
 }
 
+// --- REMPLACÉ PAR CORRECTION ---
+// --- VERSION CORRIGÉE AVEC DEBUG ---
 void Engine::processEvents(WindowData& data)
 {
     sf::Event event;
-    // Supprimer "Scene scene;"
 
     while (data.window->pollEvent(event))
     {
@@ -54,29 +56,10 @@ void Engine::processEvents(WindowData& data)
             data.shouldClose = true;
             data.window->close();
         }
-
-        if (event.type == sf::Event::MouseButtonPressed &&
-            event.mouseButton.button == sf::Mouse::Left)
-        {
-            if (isGameWindowHovered)
-            {
-                sf::Vector2i mousePixelPos = sf::Mouse::getPosition(*data.window);
-
-                sf::Vector2f relativePos;
-                relativePos.x = mousePixelPos.x - gameWindowPos.x;
-                relativePos.y = mousePixelPos.y - gameWindowPos.y;
-
-                for (size_t i = 0; i < scene.entities.size(); i++)
-                {
-                    if (isClicked(scene.entities[i], relativePos))
-                    {
-                        selected = i;
-                    }
-                }
-            }
-        }
     }
 }
+// --- FIN CORRECTION ---
+// --- FIN CORRECTION ---
 
 void Engine::renderWindow(WindowData& data)
 {
@@ -120,12 +103,21 @@ void Engine::renderEntities(WindowData& data, std::vector<Entity>& entities)
     }
 }
 
+// --- VERSION AVEC DEBUG ---
 void Engine::Ajouter_entities()
 {
-    // Scene scene;  // Correction: utilisation du membre de classe
+    // Vert à (100,100) taille 80x80
     this->scene.entities.push_back({{100, 100}, {80, 80}, sf::Color::Green});
+    // Rouge à (300,200) taille 100x100  
     this->scene.entities.push_back({{300, 200}, {100, 100}, sf::Color::Red});
+    
+    std::cout << "=== ENTITÉS AJOUTÉES ===" << std::endl;
+    std::cout << "Vert : position(100,100) taille(80,80)" << std::endl;
+    std::cout << "Rouge: position(300,200) taille(100,100)" << std::endl;
+    std::cout << "Zone cliquable Vert : X[100-180] Y[100-180]" << std::endl;
+    std::cout << "Zone cliquable Rouge: X[300-400] Y[200-300]" << std::endl;
 }
+// --- FIN CORRECTION ---
 
 
 

@@ -39,11 +39,6 @@ private:
 
     void Ajouter_entities();
 
-
-    ImVec2 gameWindowPos;
-    ImVec2 gameWindowSize;
-    bool isGameWindowHovered;
-
 public:
     Engine();
     ~Engine();
