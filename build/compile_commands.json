@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/src/Engine.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/src/Engine.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/src/Engine.cpp",
+  "output": "CMakeFiles/OUT.dir/src/Engine.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/src/UI.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/src/UI.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/src/UI.cpp",
+  "output": "CMakeFiles/OUT.dir/src/UI.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/src/main.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/src/main.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/src/main.cpp",
+  "output": "CMakeFiles/OUT.dir/src/main.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui.cpp",
+  "output": "CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui_draw.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui_draw.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui_tables.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui_tables.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui_widgets.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui_widgets.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build",
+  "command": "/usr/bin/c++ -DIMGUI_DEFINE_MATH_OPERATORS -DIMGUI_SFML_USE_OPENGL_FIXED_PIPELINE -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/../../librairie/libs/imgui-sfml\" -I\"/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/include\" -std=gnu++17 -o CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui-sfml/imgui-SFML.cpp.o -c \"/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui-sfml/imgui-SFML.cpp\"",
+  "file": "/media/lucasa/Ventoy/C++/aventure archaique/librairie/libs/imgui-sfml/imgui-SFML.cpp",
+  "output": "CMakeFiles/OUT.dir/media/lucasa/Ventoy/C++/aventure_archaique/librairie/libs/imgui-sfml/imgui-SFML.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build/CMakeFiles/OUT.dir
+/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build/CMakeFiles/edit_cache.dir
+/media/lucasa/Ventoy/C++/aventure archaique/projet/Rks Engine/build/CMakeFiles/rebuild_cache.dir
